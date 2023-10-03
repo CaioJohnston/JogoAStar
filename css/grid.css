@@ -1,0 +1,38 @@
+#tabuleiro{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    background-color: dimgray;;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+  }
+  body{
+    text-align: center;
+  }
+
+  #tabuleiro div{
+    width:48px;
+    height:48px;
+    border:1px solid darkgrey;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .quadselectstart {
+    background-color: rgb(31, 204, 247);
+  }
+
+  .quadselectgoal {
+    background-color: rgb(240, 77, 185);
+  }
+
+  .barreira {
+    background-color: black;
+  }
+
+  .caminho {
+    background-color: lime;
+  }
